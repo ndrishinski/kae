@@ -1,26 +1,43 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import HomePage from './components/HomePage'
+import AboutPage from './components/AboutPage'
+import TreatmentPage from './components/TreatmentPage'
+import ReviewsPage from './components/ReviewsPage'
+import PhotosPage from './components/PhotosPage'
+import MorePhotosPage from './components/MorePhotosPage'
+import ExtraPage from './components/ExtraPage'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <div id="page-wrapper">
+
+
+					<div id="wrapper">
+
+
+
+              <HomePage />
+
+						  <AboutPage />
+
+              <TreatmentPage />
+
+              <ReviewsPage />
+
+							<PhotosPage />
+
+              <MorePhotosPage />
+
+
+							<div className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+
+					</div>
+
+			</div>
+
     );
   }
 }
