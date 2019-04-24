@@ -5,7 +5,7 @@ class TreatmentPage extends React.Component {
     return (
       <section className="panel color1">
         <div className="intro joined">
-          <h2 className="major">Amet lorem</h2>
+          <h2 className="major">How I'll fix you</h2>
           <p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
         </div>
         <div className="inner">

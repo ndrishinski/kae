@@ -1,6 +1,6 @@
 import React from 'react'
 
-class MorePhotosPage extends React.Component {
+class ContactPage extends React.Component {
   render() {
     return (
       <section className="panel color4-alt">
@@ -45,4 +45,4 @@ class MorePhotosPage extends React.Component {
   }
 }
 
-export default MorePhotosPage
+export default ContactPage

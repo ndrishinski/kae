@@ -5,7 +5,7 @@ import AboutPage from './components/AboutPage'
 import TreatmentPage from './components/TreatmentPage'
 import ReviewsPage from './components/ReviewsPage'
 import PhotosPage from './components/PhotosPage'
-import MorePhotosPage from './components/MorePhotosPage'
+import ContactPage from './components/ContactPage'
 import ExtraPage from './components/ExtraPage'
 import './App.css';
 
@@ -27,9 +27,7 @@ class App extends Component {
 
               <ReviewsPage />
 
-							<PhotosPage />
-
-              <MorePhotosPage />
+              <ContactPage />
 
 
 							<div className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
