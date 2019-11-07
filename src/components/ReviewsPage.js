@@ -5,11 +5,12 @@ class ReviewsPage extends React.Component {
     return (
       <section className="panel spotlight large left">
         <div className="content span-5">
-          <h2 className="major">Reviews</h2>
-          <p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.</p>
+          <h2 className="major">I can help you too</h2>
+          <p style={{color: '#FFF'}}>Doing the 6 week health challenge was an absolute life changer. It helped me not only learn about health, fitness, foods, and more, but also helped me balance my life as a whole. I began to feel balanced in my personal and professional life. It was such a neat experience to have a health coach with a fountain of knowledge who is also committed to helping you change your life for the better!</p>
+          <p style={{color: '#FFF'}}>-Mark Graves</p>
         </div>
         <div className="image filtered tinted" data-position="top right">
-          <img src="images/pic03.jpg" alt="" />
+          <img src="images/tatPic.jpg" alt="" />
         </div>
       </section>
     )

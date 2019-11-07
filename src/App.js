@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+import {BrowserRouter as Router,
+        Switch,
+        Route
+} from 'react-router-dom';
+
+import Wrapper from './components/Wrapper'
 
 import HomePage from './components/HomePage'
 import AboutPage from './components/AboutPage'
@@ -7,34 +13,31 @@ import ReviewsPage from './components/ReviewsPage'
 import PhotosPage from './components/PhotosPage'
 import ContactPage from './components/ContactPage'
 import ExtraPage from './components/ExtraPage'
+import BlogPage from './components/BlogPage'
 import './App.css';
 
+import {db} from './firebase'
+
 class App extends Component {
+  componentDidMount() {
+
+      // db
+      //   .collection('blogs')
+      //   .get()
+      //   .then(res => console.log(res))
+  }
+
+  // <Route path="/blog" component={BlogPage} />
+
   render() {
     return (
-      <div id="page-wrapper">
 
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Wrapper} />
 
-					<div id="wrapper">
-
-
-
-              <HomePage />
-
-						  <AboutPage />
-
-              <TreatmentPage />
-
-              <ReviewsPage />
-
-              <ContactPage />
-
-
-							<div className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
-
-					</div>
-
-			</div>
+          </Switch>
+        </Router>
 
     );
   }

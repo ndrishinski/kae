@@ -951,10 +951,10 @@ input, select, textarea {
 		}
 
 		.image[data-position="25% 25%"] img {
-			-moz-object-position: 25% 25%;
-			-webkit-object-position: 25% 25%;
-			-ms-object-position: 25% 25%;
-			object-position: 25% 25%;
+			-moz-object-position: 25% 1%;
+			-webkit-object-position: 25% 1%;
+			-ms-object-position: 25% 1%;
+			object-position: 25% 1%;
 		}
 
 		.image[data-position="75% 25%"] img {
